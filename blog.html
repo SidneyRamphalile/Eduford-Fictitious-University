@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/graduation-cap-48.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="university logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+    
+    <!------------------------------------Blog Page Content----------------------->
+
+    <section class ="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="certificate">
+                <h2>Our Certificate & Online Programs for 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsam adipisci id quasi in, numquam possimus eius aspernatur ut veritatis. Pariatur, expedita nesciunt? Velit minus repudiandae blanditiis a, recusandae suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus itaque molestias excepturi similique soluta maxime. Pariatur explicabo, facere consequatur quisquam, voluptate inventore eveniet at nostrum consequuntur eius asperiores eaque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore nostrum asperiores maiores iste enim ab mollitia, sunt possimus id, ducimus voluptatum, reprehenderit est voluptates explicabo. Voluptatem, nemo. Perferendis, minima.</p> <br>
+                <p>Lorem ipsum dolor sit amet, consectet. Lorem ipsum dolor sit amet, consectet. Lorem ipsum dolor sit amet, consectet. Lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nesciunt delectus qui laudantium adipisci molestiae impedit dolorum quos? Iusto incidunt atque reprehenderit dolore laboriosam vel, repudiandae non odit accusamus consectetur!</p> <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta inventore iste expedita cupiditate quia voluptatum consequuntur, totam sit corporis officiis non obcaecati nam tempore illum accusantium, mollitia quod. Laudantium, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero exercitationem, at possimus eum et alias unde cum delectus cupiditate nam esse distinctio magnam ex velit obcaecati quo, assumenda excepturi corrupti.</p> <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quaerat consequatur facilis consequuntur asperiores. Ullam dolores ea ab totam labore mollitia nobis accusantium veritatis! Ad tempora pariatur debitis rerum quia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae aliquid alias, nemo aperiam ut sed laudantium reprehenderit odio adipisci. Ut, eius cumque. Consequatur qui est et nemo molestias. Unde, assumenda?</p>
+
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>37</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Engineering</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Health</span>
+                    <span>38</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+   <!-----Footer-->
+
+   <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe placeat voluptates dolor hic unde amet temporibus tempore vero accusamus accusantium, cupiditate est <br>nisi, optio impedit quaerat quae quas laboriosam.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>    
+        </div>
+        <p style="text-align: center;"> Copyright &copy;2023</p>
+   </section>
+
+   
+
+
+
+
+    <!--JavaScript for Toggle Menu -->
+   <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+   </script> 
+</body>
+</html>
